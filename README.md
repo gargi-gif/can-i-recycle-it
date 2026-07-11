@@ -41,10 +41,15 @@ docs/                   Sourced research notes behind every ruling (data provena
 
 ## Contributing
 
+**New here? Start with a [`good first issue`](https://github.com/mrdogruu/can-i-recycle-it/labels/good%20first%20issue).** 🌱
+
 The most valuable contribution is **adding items or correcting rulings — with sources.**
 Every recyclability verdict must cite an authoritative reference (a national recycling
 authority, EPA, a municipal A–Z guide, or an industry body). Unsourced entries are not
 accepted. See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the item schema and sourcing rules.
+
+Adding one well-sourced item is a perfect first PR. Comment on an issue to claim it, drop
+your source link in the PR, and you're in. 270+ items so far — help us cover the rest.
 
 > Recycling rules vary by locality. This project reflects widely-applicable guidance and
 > flags region-dependent items as "check locally" rather than claiming a universal ruling.
