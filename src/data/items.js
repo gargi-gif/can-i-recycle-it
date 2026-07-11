@@ -241,7 +241,7 @@ export const ITEMS = [
   {
     id: "plastic-bag",
     name: "Plastic Bag",
-    keywords: ["grocery bag", "film", "wrapper"],
+    keywords: ["grocery bag", "film", "wrapper", "carrier bag", "polybag"],
     category: "plastic",
     recyclable: false,
     instruction: "Curbside bins can't process film plastic — return bags to a store drop-off point.",
@@ -331,7 +331,7 @@ export const ITEMS = [
   {
     id: "aluminum-can",
     name: "Aluminum Can",
-    keywords: ["soda can", "beer can", "tin"],
+    keywords: ["soda can", "beer can", "tin", "pop can", "coke can"],
     category: "metal",
     recyclable: true,
     instruction: "Rinse and recycle — aluminum can be remade endlessly without losing quality.",
@@ -367,7 +367,7 @@ export const ITEMS = [
   {
     id: "smartphone",
     name: "Smartphone",
-    keywords: ["phone", "mobile", "iphone"],
+    keywords: ["phone", "mobile", "iphone", "cell phone", "android"],
     category: "electronics",
     recyclable: false,
     instruction: "Hand it to an e-waste collection point — its metals are recovered separately.",
@@ -421,7 +421,7 @@ export const ITEMS = [
   {
     id: "drink-carton",
     name: "Drink Carton",
-    keywords: ["tetra pak", "juice box", "milk carton", "aseptic carton"],
+    keywords: ["tetra pak", "juice box", "milk carton", "aseptic carton", "tetrapack", "juice carton"],
     category: "paper",
     recyclable: true,
     instruction: "Rinse and flatten it, then recycle with mixed packaging where cartons are collected — never in the paper bin, since the plastic and foil layers need a different process.",
@@ -520,7 +520,7 @@ export const ITEMS = [
   {
     id: "diaper",
     name: "Diaper",
-    keywords: ["nappy", "baby diaper", "disposable diaper"],
+    keywords: ["nappy", "baby diaper", "disposable diaper", "pampers", "huggies"],
     category: "other",
     recyclable: false,
     instruction: "Seal it in a bag and put it straight in the general trash — the mixed absorbent materials can't be recycled.",
@@ -1555,7 +1555,7 @@ export const ITEMS = [
   {
     id: "cotton-swabs",
     name: "Cotton Swabs & Pads",
-    keywords: ["q-tips", "cotton buds", "cotton pads"],
+    keywords: ["q-tips", "cotton buds", "cotton pads", "qtips", "ear buds"],
     category: "other",
     recyclable: false,
     instruction: "Never flush them — plastic-stemmed swabs go in the trash, while paper-stemmed ones and pure cotton pads free of makeup can be composted.",
@@ -1573,7 +1573,7 @@ export const ITEMS = [
   {
     id: "band-aid",
     name: "Adhesive Bandage",
-    keywords: ["band aid", "plaster", "bandage"],
+    keywords: ["band aid", "plaster", "bandage", "bandaid", "elastoplast"],
     category: "other",
     recyclable: false,
     instruction: "Used bandages are single-use plastic for the trash — bag soiled ones, and recycle only the cardboard box they came in.",
@@ -1996,7 +1996,7 @@ export const ITEMS = [
   {
     id: "pacifier",
     name: "Pacifier",
-    keywords: ["dummy", "baby pacifier", "soother"],
+    keywords: ["dummy", "baby pacifier", "soother", "teether"],
     category: "other",
     recyclable: false,
     instruction: "Mixed silicone and plastic parts make pacifiers hard to recycle — most go in the trash, though it's worth checking if your area has a specialty program.",
