@@ -1,0 +1,33 @@
+{
+  "name": "canirecycleit",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Search any household item and get an instant recyclable / not-recyclable answer plus a one-sentence disposal instruction. Every ruling is sourced.",
+  "license": "MIT",
+  "homepage": "https://canirecycleit.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrdogruu/can-i-recycle-it.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrdogruu/can-i-recycle-it/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/gen-sitemap.mjs && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "vite": "^6.0.0"
+  }
+}
